@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.bandicootbuilds" name="Bandicootbuilds Repository" version="0.1.3" provider-name="Bandicoot Builds">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Bandicootbuilds Repository">
+            <info compressed="false">http://bandicootbuilds.com/bcrepo/addons.xml</info>
+            <checksum>http://bandicootbuilds.com/bcrepo/addons.xml.md5</checksum>
+            <datadir zip="true">http://bandicootbuilds.com/bcrepo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install add-ons from the bandicootbuilds repository</summary>
+            <description>Having this repository installed will ensure that you will always have the latest versions of the bandicoot wizard and other add-ons from bandicoot builds, for help and support please visit https://www.facebook.com/groups/bandicootbuilds/</description>
+            <platform>all</platform>
+    </extension>
+</addon>
